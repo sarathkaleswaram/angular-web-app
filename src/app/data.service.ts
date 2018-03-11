@@ -6,7 +6,8 @@ export class DataService {
 
   private goals = new BehaviorSubject<any>([
     'The Initial goal',
-    'Another silly goal'
+    'Another silly goal',
+    'Final goal'
   ]);
   goal = this.goals.asObservable();
 
