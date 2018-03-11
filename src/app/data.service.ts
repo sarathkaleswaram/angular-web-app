@@ -6,6 +6,7 @@ export class DataService {
 
   private goals = new BehaviorSubject<any>([
     'The Initial goal',
+    'Second goal',
     'Another silly goal',
     'Final goal'
   ]);
