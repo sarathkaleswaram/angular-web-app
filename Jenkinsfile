@@ -1,14 +1,10 @@
 pipeline {
     agent any
 
-    triggers {
-        githubPush()
-    }
-
     stages {
         stage('One') {
             steps {
-                echo 'Hi, this is a test ----------'
+                echo 'Hi, this is a test ----------123'
             }
         }
 
